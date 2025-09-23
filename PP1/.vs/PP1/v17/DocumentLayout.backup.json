@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Program Files\\XAMPP\\htdocs\\FI22027357-Web\\PP1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{50300CDC-C339-49DB-A5F7-4EF98435E968}|PP1\\PP1.csproj|d:\\program files\\xampp\\htdocs\\fi22027357-web\\pp1\\pp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50300CDC-C339-49DB-A5F7-4EF98435E968}|PP1\\PP1.csproj|solutionrelative:pp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Program Files\\XAMPP\\htdocs\\FI22027357-Web\\PP1\\PP1\\Program.cs",
+              "RelativeDocumentMoniker": "PP1\\Program.cs",
+              "ToolTip": "D:\\Program Files\\XAMPP\\htdocs\\FI22027357-Web\\PP1\\PP1\\Program.cs",
+              "RelativeToolTip": "PP1\\Program.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAAwHkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T23:31:11.315Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
