@@ -1,0 +1,87 @@
+﻿@model Conversiones.Models.ConversionModel
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Calculadora Binaria</h2>
+
+    <form asp-action="Index" method="post" class="p-4 border rounded bg-light">
+        <div class="mb-3">
+            <label asp-for="A" class="form-label fw-bold"></label>
+            <input asp-for="A" class="form-control" placeholder="Ejemplo: 1010" />
+            <span asp-validation-for="A" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="B" class="form-label fw-bold"></label>
+            <input asp-for="B" class="form-control" placeholder="Ejemplo: 11" />
+            <span asp-validation-for="B" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary w-100">Calcular</button>
+    </form>
+
+    @if (Model.And != null)
+    {
+        <div class="mt-5">
+            <h4 class="text-center text-success mb-3">Resultados</h4>
+
+            <table class="table table-bordered text-center align-middle">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Operación</th>
+                        <th>Binario</th>
+                        <th>Decimal</th>
+                        <th>Hexadecimal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>A</td>
+                        <td>@Model.A</td>
+                        <td>@Convert.ToInt32(Model.A, 2)</td>
+                        <td>@Convert.ToInt32(Model.A, 2).ToString("X")</td>
+                    </tr>
+                    <tr>
+                        <td>B</td>
+                        <td>@Model.B</td>
+                        <td>@Convert.ToInt32(Model.B, 2)</td>
+                        <td>@Convert.ToInt32(Model.B, 2).ToString("X")</td>
+                    </tr>
+                    <tr>
+                        <td>A AND B</td>
+                        <td>@Model.And</td>
+                        <td>@Convert.ToInt32(Model.And, 2)</td>
+                        <td>@Convert.ToInt32(Model.And, 2).ToString("X")</td>
+                    </tr>
+                    <tr>
+                        <td>A OR B</td>
+                        <td>@Model.Or</td>
+                        <td>@Convert.ToInt32(Model.Or, 2)</td>
+                        <td>@Convert.ToInt32(Model.Or, 2).ToString("X")</td>
+                    </tr>
+                    <tr>
+                        <td>A XOR B</td>
+                        <td>@Model.Xor</td>
+                        <td>@Convert.ToInt32(Model.Xor, 2)</td>
+                        <td>@Convert.ToInt32(Model.Xor, 2).ToString("X")</td>
+                    </tr>
+                    <tr>
+                        <td>A + B</td>
+                        <td>@Model.Sum</td>
+                        <td>@Convert.ToInt32(Model.Sum, 2)</td>
+                        <td>@Convert.ToInt32(Model.Sum, 2).ToString("X")</td>
+                    </tr>
+                    <tr>
+                        <td>A × B</td>
+                        <td>@Model.Mul</td>
+                        <td>@Convert.ToInt32(Model.Mul, 2)</td>
+                        <td>@Convert.ToInt32(Model.Mul, 2).ToString("X")</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    }
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
