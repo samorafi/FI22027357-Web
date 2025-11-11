@@ -1,0 +1,6 @@
+D:\Program Files\XAMPP\htdocs\FI22027357-Web\PP4\PP4\obj\Debug\net9.0\PP4.csproj.AssemblyReference.cache
+D:\Program Files\XAMPP\htdocs\FI22027357-Web\PP4\PP4\obj\Debug\net9.0\PP4.GeneratedMSBuildEditorConfig.editorconfig
+D:\Program Files\XAMPP\htdocs\FI22027357-Web\PP4\PP4\obj\Debug\net9.0\PP4.AssemblyInfoInputs.cache
+D:\Program Files\XAMPP\htdocs\FI22027357-Web\PP4\PP4\obj\Debug\net9.0\PP4.AssemblyInfo.cs
+D:\Program Files\XAMPP\htdocs\FI22027357-Web\PP4\PP4\obj\Debug\net9.0\PP4.csproj.CoreCompileInputs.cache
+D:\Program Files\XAMPP\htdocs\FI22027357-Web\PP4\PP4\obj\Debug\net9.0\PP4.sourcelink.json
